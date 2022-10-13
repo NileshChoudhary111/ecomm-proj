@@ -6,7 +6,29 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.header {
+  background-color: orange;
+  height: 100px;
+}
+.cart-div {
+  float: right;
+  margin: 25px;
+  position: relative;
+}
+.cart-div img {
+  width: 30px;
+}
+.cart-div span {
+  position: absolute;
+  z-index: 5;
+  background-color: green;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: white;
+  top: -10px;
+  right: 0;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
